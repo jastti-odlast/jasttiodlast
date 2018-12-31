@@ -1,0 +1,95 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body {
+font-family : Roboto;
+background-color : #fefefe;
+font-weight : 400;
+}
+
+.container {
+padding : 22px;
+border-radius : 6px;
+border : 1px solid #e0e0e0;
+}
+
+h1, h2 {
+font-weight : 300;
+margin : 0;
+padding : 0;
+}
+
+#titlemini {
+font-weight : 400;
+margin-top : 16px;
+margin-bottom : 16px;
+}
+
+h3, h4, h5, h6 {
+margin : 0;
+padding : 0;
+font-weight : 400;
+}
+
+.code {
+width : 100% auto;
+padding : 8px;
+background-color : #212121;
+font-family : monospace;
+border-radius : 6px;
+color : white;
+}
+
+.outputcode {
+padding : 8px;
+border : 1px solid #e0e0e0;
+border-radius : 6px;
+}
+
+hr {
+border : 1px solid #e0e0e0;
+}
+
+td {
+padding : 4px;
+text-align : center;
+}
+
+.message {
+width : 100% auto;
+padding : 16px;
+border-radius : 6px;
+border : 1px solid #e0e0e0;
+font-size : 18px;
+text-align : center;
+margin-top : 32px;
+animation : loadanim 1s linear infinite;
+background-color : #424242;
+color : white;
+z-index : -1;
+}
+
+@keyframes loadanim {
+0% {
+transform : skew(0);
+} 50% {
+transform : skew(-15deg);
+} 80% {
+transform : skew(15deg);
+} 100% {
+transform : skew(0);
+}
+}
+
+/* Code caracters of Markdown */
+
+code {
+padding : 2px;
+}
+
+#caracterscolortitle {
+color : #82B1FF;
+}
+
+#stringscolortitle {
+color : #8BC34A;
+}
